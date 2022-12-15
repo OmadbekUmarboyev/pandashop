@@ -1,0 +1,39 @@
+#Nav {
+  width: 100%;
+  min-height: 100px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #202529;
+  padding: 0 3%;
+}
+#left > a {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+}
+#medium {
+  width: 265px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#medium > a {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+}
+#Right {
+  width: 224px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#Right > img {
+  cursor: pointer;
+}

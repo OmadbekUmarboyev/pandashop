@@ -1,0 +1,12 @@
+#Intro {
+  width: 100%;
+  min-height: 475px;
+  height: auto;
+}
+#FigureIntro1 {
+  width: 100%;
+  height: 100%;
+}
+#FigureIntro1 > img {
+  width: 100%;
+}

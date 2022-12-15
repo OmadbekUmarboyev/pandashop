@@ -1,0 +1,75 @@
+#Nav2 {
+  width: 100%;
+  min-height: 74px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: linear-gradient(
+      0deg,
+      rgba(32, 37, 41, 0.25),
+      rgba(32, 37, 41, 0.25)
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  padding: 0 20%;
+}
+.drop-down-card > .sub-menu {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 154px;
+  opacity: 0;
+  box-shadow: #0000003d 0px 3px 8px;
+  background: #fff;
+  border-radius: 6px;
+  transition: all 0.4s ease;
+  visibility: hidden;
+  z-index: 15;
+  transform: translate(0px, -60px);
+}
+.drop-down-card:hover .sub-menu {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(0, 0);
+}
+#Pwert {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+  color: #41416e;
+}
+.drop-down-card > a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #41416e;
+}
+#BIGAGROPUP {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.sub-menu {
+  width: 200px;
+  height: 178px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 10px;
+  padding-left: 1%;
+}
+.sub-menu > a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #41416e;
+}

@@ -1,0 +1,94 @@
+#Home {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+#Sec1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 33px;
+  padding-top: 58px;
+  padding: 0 5%;
+}
+#BigData {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#dataMap {
+  width: 400px;
+  height: 619px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1%;
+  margin-top: 1.2%;
+  cursor: pointer;
+  overflow: hidden;
+}
+#dataMap > figure {
+  width: 95%;
+  height: 457px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+#dataMap > figure > img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+  object-fit: cover;
+}
+#dataMap > figure > img:hover {
+  transform: scale(1.04);
+}
+#PRname {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 34px;
+  color: #41416e;
+  margin-top: 2%;
+  cursor: pointer;
+}
+#PRprice {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #41416e;
+  cursor: pointer;
+}
+#font {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+#font h1 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #41416e;
+  cursor: pointer;
+}
+#font a {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f50057;
+}

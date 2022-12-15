@@ -1,5 +1,6 @@
-import "./Style/Global.css";
+import { Router } from "./Router";
+import "./Assets/Style/Global.css";
 
 export function App() {
-  return <div className="App"></div>;
+  return <Router />;
 }
