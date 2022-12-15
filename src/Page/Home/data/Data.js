@@ -2,7 +2,6 @@ import React from "react";
 
 import "../Home.css";
 import dataImg1 from "../Assets/4IMG_20220507_175040_152 1.png";
-import { NavLink } from "react-router-dom";
 const data = [
   {
     nomi: "Koylak dvoyka",
