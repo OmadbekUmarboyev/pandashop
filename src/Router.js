@@ -5,7 +5,6 @@ import { Home } from "./Page/Home/Home";
 import { Navbar } from "./Components/Header/Navbar/Navbar";
 import { Footer } from "./Components/Footer/Footer";
 import { Product } from "./Page/Product/Product";
-import { Filter } from "./Components/FilterProduct/Filter";
 
 export function Router() {
   return (
