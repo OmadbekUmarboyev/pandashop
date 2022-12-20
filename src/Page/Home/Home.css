@@ -5,6 +5,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  background: #fff;
 }
 #Sec1 {
   width: 100%;
@@ -46,6 +47,23 @@
   align-items: center;
   flex-direction: column;
   overflow: hidden;
+  position: relative;
+}
+#Chegirma {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 0;
+  top: 0;
+  background: #f44336;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 9999;
+  border-radius: 50%;
+  margin: 5%;
+  display: none;
 }
 #dataMap > figure > img {
   width: 100%;
@@ -91,4 +109,27 @@
   font-size: 24px;
   line-height: 29px;
   color: #f50057;
+}
+/* ////////////////SECTION2/////////////// */
+#Sec2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 33px;
+  padding-top: 58px;
+  padding: 0 5%;
+}
+/* ////////////////SECTION3/////////////// */
+#Sec3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 161px;
+  padding: 0 5%;
 }

@@ -1,0 +1,30 @@
+#Homiy {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #001e3c;
+}
+
+#HomiySlider {
+  width: 80%;
+  height: auto;
+  margin-top: 43px;
+}
+#FigureIntro2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#FigureIntro2 > img {
+  width: 60%;
+  height: 90%;
+}
+#BZH1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+}

@@ -13,10 +13,10 @@ export function Navbar2() {
             Kiyimlar <img src={BootomIcon} alt="" />
           </NavLink>
           <div className="sub-menu">
-            <NavLink>Erkaklar uchun</NavLink>
-            <NavLink>Ayollar uchun</NavLink>
-            <NavLink>Qizlar uchun</NavLink>
-            <NavLink>Bolalar uchun</NavLink>
+            <NavLink to="product">Erkaklar uchun</NavLink>
+            <NavLink to="product">Ayollar uchun</NavLink>
+            <NavLink to="product">Qizlar uchun</NavLink>
+            <NavLink to="product">Bolalar uchun</NavLink>
           </div>
         </div>
         <NavLink id="Pwert">Chegirmalar</NavLink>

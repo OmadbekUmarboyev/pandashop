@@ -12,7 +12,7 @@ export function Intro() {
     slidesToScroll: 1,
     adaptiveHeight: true,
     autoplay: true,
-    speed: 2000,
+    speed: 1000,
     autoplaySpeed: 6000,
     cssEase: "linear",
   };

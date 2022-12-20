@@ -3,6 +3,10 @@ import { Intro } from "../../Components/Intro/Intro";
 import "./Home.css";
 import { NavLink } from "react-router-dom";
 import { Data } from "./data/Data";
+import { Massange } from "../../Components/Home Xabar/Massange";
+import { Sec2 } from "./Sec2/Sec2";
+import { Homiy } from "../../Components/Hpme Homiylar/Homiy";
+import { Data2 } from "./data/Data2";
 
 export function Home() {
   return (
@@ -15,6 +19,22 @@ export function Home() {
             <NavLink>Batafsil...</NavLink>
           </div>
           <Data />
+        </section>
+        <Homiy />
+        <section id="Sec2">
+          <div id="font">
+            <h1>Eng mashxurlari</h1>
+            <NavLink>Batafsil...</NavLink>
+          </div>
+          <Sec2 />
+        </section>
+        <Massange />
+        <section id="Sec3">
+          <div id="font">
+            <h1>Chegirmalar</h1>
+            <NavLink>Batafsil...</NavLink>
+          </div>
+          <Data2 />
         </section>
       </div>
     </>

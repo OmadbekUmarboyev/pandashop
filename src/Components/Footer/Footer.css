@@ -1,0 +1,73 @@
+#Footer {
+  width: 100%;
+  min-height: 200px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background: #001e3c;
+  padding: 0 7%;
+}
+#Bolim1 {
+  min-width: 476px;
+  height: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-right: 3%;
+}
+#FontFooter {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  color: #ffffff;
+}
+#FontFooter > h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+}
+#FontFooter > h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+#FontFooter > p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 10px;
+}
+#Bolim2 {
+  width: 130px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  color: #ffffff;
+}
+#Bolim2 > :nth-child(1) {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+#Bolim2 > :nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5) {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}

@@ -1,0 +1,92 @@
+#Massange {
+  width: 100%;
+  max-height: 340px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #001e3c;
+}
+#Comment {
+  width: 815px;
+  height: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 20px;
+  overflow: hidden;
+  gap: 2%;
+  margin-top: 38px;
+}
+#MaH1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+}
+#Lorem {
+  width: 60%;
+  height: 165px;
+  background: #ffffff;
+  padding: 1%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#Light {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#LightLeft11 {
+  width: 300px;
+  height: 45px;
+  background: #ffffff;
+  border-radius: 0px 10px 0px 0px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+  color: rgba(65, 65, 110, 0.5);
+  padding: 0 3%;
+}
+#NumFor {
+  width: 300px;
+  height: 45px;
+  background: #ffffff;
+  margin-top: 15px;
+  padding: 0 3%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+  color: #41416e;
+}
+#SubBtn {
+  width: 300px;
+  height: 45px;
+  background: #2fe51f;
+  border-radius: 0px 0px 10px 0px;
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  border: none;
+}
