@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import "./Massange.css";
 import { PatternFormat } from "react-number-format";
 
@@ -17,6 +17,7 @@ export function Massange() {
               mask="_"
               id="NumFor"
             />
+              
             <button id="SubBtn">Xabarni Jo`natish</button>
           </div>
         </div>

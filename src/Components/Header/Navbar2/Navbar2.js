@@ -9,14 +9,14 @@ export function Navbar2() {
       <div id="Nav2">
         <NavLink id="Pwert">New</NavLink>
         <div className="drop-down-card">
-          <NavLink id="BIGAGROPUP">
+          <NavLink to="product" id="BIGAGROPUP">
             Kiyimlar <img src={BootomIcon} alt="" />
           </NavLink>
           <div className="sub-menu">
-            <NavLink to="product">Erkaklar uchun</NavLink>
-            <NavLink to="product">Ayollar uchun</NavLink>
-            <NavLink to="product">Qizlar uchun</NavLink>
-            <NavLink to="product">Bolalar uchun</NavLink>
+            <NavLink to="product/for_men">Erkaklar uchun</NavLink>
+            <NavLink to="product/for_women">Ayollar uchun</NavLink>
+            <NavLink to="product/for_girl">Qizlar uchun</NavLink>
+            <NavLink to="product/for_boy">Bolalar uchun</NavLink>
           </div>
         </div>
         <NavLink id="Pwert">Chegirmalar</NavLink>
