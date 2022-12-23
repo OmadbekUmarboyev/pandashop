@@ -8,3 +8,51 @@
   flex-direction: column;
   background: #fff;
 }
+#Filter {
+  width: 100%;
+  height: 136px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 55px;
+}
+#FilterBTN {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #41416e80;
+  border-radius: 10px;
+}
+#SearcProduct {
+  width: 400px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: rgba(217, 217, 217, 0.2);
+  border: 2px solid rgba(65, 65, 110, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+}
+#SearcProduct > input {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  border: none;
+  padding: 0 3%;
+  border-right: 1px solid rgba(65, 65, 110, 0.5);
+}
+#SearchBtn {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+}
