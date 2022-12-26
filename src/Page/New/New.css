@@ -36,19 +36,18 @@
 }
 #MapNew > figure > img {
   width: 100%;
+  height: 100%;
 }
-#Lorem1 {
-  width: 60%;
-  height: 165px;
-  background: #ffffff;
-  padding: 1%;
+
+#ImgNewPr {
+  position: relative;
+}
+#PNewpr {
+  position: absolute;
+  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #000000;
-  border: none;
-  outline: none;
-  background: rgba(217, 217, 217, 0.2);
-  border: 1px solid rgba(65, 65, 110, 0.7);
+  font-size: 20px;
+  line-height: 150.02%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
 }

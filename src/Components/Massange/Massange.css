@@ -1,82 +1,4 @@
-#Massange {
-  width: 100%;
-  min-height: 340px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: #001e3c;
-}
-#Comment {
-  width: 815px;
-  height: 165px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  border-radius: 20px;
-  overflow: hidden;
-  gap: 2%;
-  margin-top: 38px;
-}
-#MaH1 {
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 39px;
-  color: #ffffff;
-}
-#Lorem {
-  width: 60%;
-  height: 165px;
-  background: #ffffff;
-  padding: 1%;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #000000;
-  border: none;
-  outline: none;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
 
-#Light {
-  width: 40%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-#LightLeft11 {
-  width: 300px;
-  height: 45px;
-  background: #ffffff;
-  border-radius: 0px 10px 0px 0px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0.1em;
-  color: rgba(65, 65, 110, 0.5);
-  padding: 0 3%;
-}
-#NumFor {
-  width: 300px;
-  height: 45px;
-  background: #ffffff;
-  margin-top: 15px;
-  padding: 0 3%;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0.1em;
-  color: #41416e;
-}
 #SubBtn {
   width: 300px;
   height: 45px;
@@ -89,4 +11,53 @@
   letter-spacing: 0.1em;
   color: #ffffff;
   border: none;
+} 
+#Habar {
+  width: 690px;
+  height: 155px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 50px;
+  margin-top: 152px;
+}
+#Lorem2 {
+  width: 50%;
+  height: 100%;
+  resize: none;
+  border: 1px solid #41416eb2;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
+  padding: 1%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  background: #ffffff;
+}
+#Right11 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+#PhoneIn {
+  width: 87%;
+  height: 45px;
+  border: 1px solid rgba(65, 65, 110, 0.7);
+  border-radius: 0px 10px 0px 0px;
+  padding: 0 3%;
+  background: #ffffff !important;
+}
+#NumFor2 {
+  width: 87%;
+  height: 45px;
+  border: 1px solid rgba(65, 65, 110, 0.7);
+  border-radius: 0px;
+  margin-top: 10px;
+  padding: 0 3%;
+  background: #ffffff !important;
 }

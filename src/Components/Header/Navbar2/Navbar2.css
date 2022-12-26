@@ -73,3 +73,9 @@
   line-height: 24px;
   color: #41416e;
 }
+#Nav2 > a.active {
+  color: #f44336;
+}
+.drop-down-card > a.active {
+  color: #f44336;
+}

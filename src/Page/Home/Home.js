@@ -28,7 +28,10 @@ export function Home() {
           </div>
           <Sec2 />
         </section>
-        <Massange />
+        <div id="Massange">
+          <h1>Xabar qoldirish</h1>
+          <Massange />
+        </div>
         <section id="Sec3">
           <div id="font">
             <h1>Chegirmalar</h1>

@@ -17,6 +17,7 @@ export function Router() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/product1" element={<Product />} />
         <Route path="/aloqa" element={<Aloqa />} />
         <Route path="/delivery" element={<Delivery />} />
         <Route path="/new" element={<New />} />

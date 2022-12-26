@@ -18,6 +18,25 @@
   padding-top: 58px;
   padding: 0 5%;
 }
+#Massange {
+  width: 100%;
+  min-height: 330px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #001e3c;
+  text-align: center;
+}
+#Massange > h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+  margin-top: 53px;
+}
 #BigData {
   width: 100%;
   height: auto;
