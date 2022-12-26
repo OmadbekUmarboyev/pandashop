@@ -1,5 +1,5 @@
 import React from "react";
-import "./Massange.css  ";
+import "./Massange.css";
 import { PatternFormat } from "react-number-format";
 
 export function Massange() {
