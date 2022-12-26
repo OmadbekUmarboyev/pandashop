@@ -3,10 +3,10 @@ import { Intro } from "../../Components/Intro/Intro";
 import "./Home.css";
 import { NavLink } from "react-router-dom";
 import { Data } from "./data/Data";
-import { Massange } from "../../Components/Home Xabar/Massange";
 import { Sec2 } from "./Sec2/Sec2";
 import { Homiy } from "../../Components/Hpme Homiylar/Homiy";
 import { Data2 } from "./data/Data2";
+import { Massange } from "../../Components/Massange/Massange";
 
 export function Home() {
   return (

@@ -1,5 +1,5 @@
-  import React from "react";
-import "./Massange.css";
+import React from "react";
+import "./Massange.css  ";
 import { PatternFormat } from "react-number-format";
 
 export function Massange() {
@@ -8,7 +8,7 @@ export function Massange() {
       <div id="Massange">
         <h1 id="MaH1">Xabar qoldirish</h1>
         <div id="Comment">
-            <input id="Lorem" type="text" />
+          <input id="Lorem" type="text" />
           <div id="Light">
             <input id="LightLeft11" type="" name="" placeholder="Ismingiz" />
             <PatternFormat
@@ -17,7 +17,7 @@ export function Massange() {
               mask="_"
               id="NumFor"
             />
-              
+
             <button id="SubBtn">Xabarni Jo`natish</button>
           </div>
         </div>
