@@ -16,13 +16,13 @@
   line-height: 39px;
   color: #ffffff;
 }
-#medium {
+.medium {
   width: 265px;
   height: auto;
   display: flex;
   justify-content: space-between;
 }
-#medium > a {
+.medium > a {
   font-weight: 400;
   font-size: 32px;
   line-height: 39px;
@@ -36,4 +36,7 @@
 }
 #Right > img {
   cursor: pointer;
+}
+.medium > a.active {
+  color: #fff500;
 }

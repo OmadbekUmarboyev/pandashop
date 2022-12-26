@@ -11,9 +11,9 @@ export function Navbar() {
       <div id="left">
         <NavLink to="/">PandaShop</NavLink>
       </div>
-      <div id="medium">
-        <NavLink to="/">Delivery</NavLink>
-        <NavLink to="/">Aloqa</NavLink>
+      <div className="medium">
+        <NavLink to="/delivery">Delivery</NavLink>
+        <NavLink to="/aloqa">Aloqa</NavLink>
       </div>
       <div id="Right">
         <img src={SearchIcon} alt="" />

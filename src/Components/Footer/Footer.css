@@ -62,8 +62,17 @@
   align-items: flex-start;
   flex-direction: row;
 }
-#Bolim2 > :nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5) {
+/* #Bolim2 > :nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5) {
   font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+} */
+#AAdmin{
+   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
   color: #ffffff;

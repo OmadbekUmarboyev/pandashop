@@ -21,24 +21,24 @@ export function Footer() {
         </div>
         <div id="Bolim2">
           <h1>Bo’limlar</h1>
-          <NavLink>Barcha maxsulotlar</NavLink>
-          <NavLink>Mening savatcham</NavLink>
-          <NavLink>Yangi maxsulotlar</NavLink>
-          <NavLink>Eng mashxurlari</NavLink>
+          <NavLink id="AAdmin">Barcha maxsulotlar</NavLink>
+          <NavLink id="AAdmin">Mening savatcham</NavLink>
+          <NavLink id="AAdmin">Yangi maxsulotlar</NavLink>
+          <NavLink id="AAdmin">Eng mashxurlari</NavLink>
         </div>
         <div id="Bolim2">
           <h1 style={{ width: "211px" }}>Biz xaqimizda</h1>
-          <NavLink>Biz bilan aloqa</NavLink>
-          <NavLink>Xamkorlik</NavLink>
-          <NavLink>Yetkazib berish</NavLink>
-          <NavLink>Manzil</NavLink>
+          <NavLink id="AAdmin">Biz bilan aloqa</NavLink>
+          <NavLink id="AAdmin">Xamkorlik</NavLink>
+          <NavLink id="AAdmin">Yetkazib berish</NavLink>
+          <NavLink id="AAdmin">Manzil</NavLink>
         </div>
         <div id="Bolim2">
           <h1>Admin</h1>
-          <NavLink style={{ width: "211px" }}>Oybek Abdujabborov</NavLink>
-          <NavLink style={{ width: "211px" }}>Shuxratbek Mo’xiddinov</NavLink>
-          <NavLink style={{ width: "211px" }}>Nozimjon Olimjonov</NavLink>
-          <NavLink style={{ width: "211px", color: "red" }}>
+          <NavLink id="AAdmin" style={{ width: "211px" }}>Oybek Abdujabborov</NavLink>
+          <NavLink id="AAdmin" style={{ width: "211px" }}>Shuxratbek Mo’xiddinov</NavLink>
+          <NavLink id="AAdmin" style={{ width: "211px" }}>Nozimjon Olimjonov</NavLink>
+          <NavLink id="AAdmin" style={{ width: "211px", color: "red" }}>
             www.axsi.uz
           </NavLink>
         </div>

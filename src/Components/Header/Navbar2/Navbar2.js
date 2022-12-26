@@ -7,7 +7,9 @@ export function Navbar2() {
   return (
     <>
       <div id="Nav2">
-        <NavLink id="Pwert">New</NavLink>
+        <NavLink to="new" id="Pwert">
+          New
+        </NavLink>
         <div className="drop-down-card">
           <NavLink to="product" id="BIGAGROPUP">
             Kiyimlar <img src={BootomIcon} alt="" />
